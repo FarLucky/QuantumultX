@@ -2,10 +2,14 @@
 # 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
 # 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.snippet
 
-#直连
+# Gmail-关键字检索-直连
  host-suffix, imap.gmail.com, direct
 
-#代理 后缀匹配
+# AI 关键字检索 代理
+ host-keyword, lmarena.ai, proxy
+ host-keyword, imagine-public.x.ai, proxy
+
+# 18+ 后缀匹配 代理
  host-suffix, jable.tv, proxy
  host-suffix, javdb.com, proxy
  host-suffix, pornhub.com, proxy
@@ -13,13 +17,11 @@
  host-suffix, you.com, proxy
  host-suffix, 2048.cc, proxy
 
-#代理 关键字
+# 18+ 关键字 代理
  host-keyword, javdb, proxy
  host-keyword, missav, proxy
- host-keyword, lmarena.ai, proxy
- host-keyword, imagine-public.x.ai, proxy
 
 #拒绝
- host-suffix, hechuangxinxi.xyz, reject
+# host-suffix, hechuangxinxi.xyz, reject
 
 ;host, www.example.com, direct
